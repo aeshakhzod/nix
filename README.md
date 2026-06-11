@@ -19,3 +19,9 @@ nix flake show github:aeshakhzod/nix
 ```sh
 nix flake init -t github:aeshakhzod/nix#simple-rust
 ```
+
+## refresh in case if you have the old version
+
+```sh
+nix flake show github:aeshakhzod/nix --refresh
+```
